@@ -1,3 +1,13 @@
+api:
+    resource: "@ApiBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+gather:
+    resource: "@GatherBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
